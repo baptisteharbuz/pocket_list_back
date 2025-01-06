@@ -33,4 +33,4 @@ app.use(express.json());
 
 app.use("/", MainRouter);
 
-app.listen(BACK_PORT || 5432);
+app.listen(BACK_PORT || 3000);

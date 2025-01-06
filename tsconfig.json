@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        // Version d'ECMAScript ciblée par la compilation
+        "target": "ES2020",
+        // Module resolution : CommonJS pour un usage Node classique
+        "module": "CommonJS",
+        // Chemin de sortie des .js compilés
+        "outDir": "dist",
+        // Activer le mode strict (recommandé)
+        "strict": true,
+        // Autoriser l'import de modules ESM (ex. import / export)
+        "esModuleInterop": true,
+        // Évite certains contrôles de définition de type pour accélérer la compil
+        "skipLibCheck": true,
+        // Force la cohérence de la casse dans les imports
+        "forceConsistentCasingInFileNames": true
+    },
+    // Quels fichiers inclure dans la compilation
+    "include": [
+        "**/*.ts"
+    ],
+    // Exclure node_modules
+    "exclude": [
+        "node_modules"
+    ]
+}

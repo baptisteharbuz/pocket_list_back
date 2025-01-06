@@ -6,7 +6,8 @@ const router: Router = Router();
 router.use("/user", userRoutes);
 
 router.get("/", (req: Request, res: Response) => {
-    res.send("Hello ! Working on Pocket List");
+    res.send("Hello !");
 });
+// carrefour des routes 
 
 export default router;
