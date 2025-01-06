@@ -23,8 +23,8 @@
 
 .Form input {
     width: 100%;
-    max-width: 100%; /* S'assure que l'input ne dépasse pas son conteneur */
-    box-sizing: border-box; /* Inclut padding et bordure dans la largeur */
+    max-width: 100%;
+    box-sizing: border-box; 
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid var(--text-color);
