@@ -1,0 +1,31 @@
+/* App.css */
+@import './Color.css';
+
+body {
+  background-color: var(--primary-color);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  color: var(--text-color);
+}
+
+h2 {
+  font-size: 30px;
+  color: var(--text-color);
+}
+
+h3 {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.AppContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.SidebarContainer {
+  width: 10%;
+}

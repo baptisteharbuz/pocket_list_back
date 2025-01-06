@@ -1,0 +1,23 @@
+
+.ContainerSidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--secondary-color);
+}
+
+.BoxListLink {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 100px;
+
+  }
+  
+  .Link {
+    text-decoration: none;
+  }
+  
