@@ -27,7 +27,7 @@ export default function Login() {
       // Logique d'inscription (ex : appel API)
       console.log('User signed up:', formData);
       // Si l'inscription réussit
-      navigate(`/connection`);
+      navigate(`/WelcomePlus`);
     } catch (error) {
       console.error('Échec de l’inscription', error);
     }
@@ -39,7 +39,7 @@ export default function Login() {
       // Logique de connexion (ex : appel API)
       console.log('User logged in:', formData);
       // Si la connexion réussit
-      navigate(`/dashboard`); // Redirige vers une page de tableau de bord ou une autre page
+      navigate(`/WelcomePlus`); 
     } catch (error) {
       console.error('Échec de la connexion', error);
     }

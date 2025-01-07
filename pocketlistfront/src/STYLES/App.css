@@ -3,22 +3,27 @@
 
 body {
   background-color: var(--primary-color);
-  font-family: Arial, sans-serif;
+  font-family: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 }
 
 h1 {
   font-size: 40px;
-  color: var(--text-color);
+  color: var(--secondary-color);
 }
 
 h2 {
   font-size: 30px;
-  color: var(--text-color);
+  font-weight: 500;
+  color: var(--secondary-color);
 }
 
 h3 {
   font-size: 20px;
-  color: var(--text-color);
+  color: var(--secondary-color);
+}
+
+p {
+  font-size: 18px;
 }
 
 .AppContainer {
