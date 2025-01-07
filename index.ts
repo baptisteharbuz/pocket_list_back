@@ -1,3 +1,4 @@
+// index.ts
 import express, { Express } from "express";
 import MainRouter from "./src/route/main.route";
 import helmet from "helmet";
