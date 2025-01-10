@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import userService from '../service/userService'; // Importer le service utilisateur
+import userService from '../service/user.service'; // Importer le service utilisateur
 
 // Fonction pour récupérer tous les utilisateurs
 export const getUsers = async (req: Request, res: Response): Promise<void> => {
